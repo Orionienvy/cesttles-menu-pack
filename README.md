@@ -1,7 +1,7 @@
 # Cesttles Menu Pack
 
-Resource pack latar **Menu Utama** server Minecraft *Cesttles Exsplore* (Java). Berisi gambar latar menu peti (hub, profil, peringkat),
-font penempel gambar, dan item transparan untuk area klik. Dibuat sendiri (gambar digambar dengan Python/Pillow), tanpa aset pihak ketiga.
+Resource pack server Minecraft *Cesttles Exsplore* (Java): latar **Menu Utama** (menu peti bergambar) + model **pilar waystone**.
+Digabung jadi satu supaya klien cukup memuat ulang sumber daya satu kali saat masuk.
 
-- Pack dikirim otomatis oleh server saat pemain masuk. Pemain yang menolak tetap mendapat menu dialog biasa.
-- Berkas: `CesttlesMenuPack.zip` (format pack 46-88).
+- Gambar menu dan tekstur dibuat sendiri. Pilar waystone: turunan QuickWaystones (GPL v3), lihat `LICENSE-NOTICE.txt` di dalam zip.
+- Berkas: `CesttlesMenuPack.zip` (format pack 15-88; fitur menu butuh Java 1.21.4+).
